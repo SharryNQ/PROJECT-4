@@ -1,0 +1,70 @@
+/*Reset Css*/
+*{
+	margin: 0;padding: 0;box-sizing: border-box;list-style: none;
+}
+
+/*Base Css*/
+.container{max-width: 1300px;margin: auto;padding: 0 15px;}
+/*Font-Face*/
+@font-face{src:url(../fonts/OpenSans-SemiBold.ttf);font-family:OpenSans-SemiBold;}
+@font-face{src:url(../fonts/OpenSans-Regular.ttf);font-family:OpenSans-Regular;}
+
+/*Top Strip Section*/
+.top-strip{
+	width: 100%;
+	background-color: #5c5c5c;
+	display: flex;
+	padding: 15px 0;font-family:OpenSans-SemiBold;
+	position: relative;vertical-align: middle;
+}
+.top-strip a, .top-strip span{
+	font-size: .8rem;color: #fff;margin: 0 15px;
+}
+.top-strip .announce{
+	width: 100%;position: absolute;padding: 5px 0;
+}
+.top-strip .announce .arrow-left{
+	left: 0;position: absolute;background-color: transparent;
+	border: none;padding-left: 30px;
+}
+.top-strip .announce .arrow-right{
+	right: 0;position: absolute;background-color: transparent;
+	border: none;padding-right: 30px;
+}
+
+/*Header Section*/
+.header{padding: 10px 0 20px;}
+.header .top-logo{
+	display: flex;justify-content: space-between;
+	align-items: center;padding-bottom: 20px;
+}
+.header .top-logo .small-logo a, .top-logo .user_sign a{text-decoration: none;}
+.header .top-logo .small-logo a img{padding: 0 10px;}
+.header .top-logo .small-logo a .sm-logo{
+	border-right: 1px solid #d2d2d2;padding: 0 10px 0 0;
+}
+.header .user_sign{display: flex;}
+.header .user_sign img{margin-right: 10px;}
+.header .user_sign a{
+	font-size: .875rem;color: #000;font-family:OpenSans-Regular;font-weight: 500;
+}
+
+.header .main-logo{
+	display: flex;justify-content: space-between;padding: 20px 0;
+}
+
+.header .nav{display: flex;justify-content: center;font-family:OpenSans-Regular;}
+.header .nav ul li{
+	display: inline-block;margin: 0 10px;position: relative;
+}
+.header .nav ul li:first-child{margin-left: 10px;}
+.header .nav ul li:last-child{margin-right: 10px;}
+.header .nav ul li a{
+	padding: 9px;font-family:OpenSans-Regular;text-decoration: none;
+	color: #000;font-size: .85rem;text-transform: uppercase;
+}
+.header .nav ul li .badge{
+	position: absolute;top: -20px;right: -14px;font-size: .75rem;
+	background-color: #d7254f;color: #fff;padding: 2px 5px;
+	border-radius: 4px;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/*Base Css*/
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/*Font-Face*/
+@font-face {
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+  font-family: OpenSans-SemiBold;
+}
+@font-face {
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-family: OpenSans-Regular;
+}
+@font-face {
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-family: OpenSans-Bold;
+}
